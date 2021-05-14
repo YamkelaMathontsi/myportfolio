@@ -21,8 +21,11 @@ body {
 .navbar-links {
   display: flex;
   list-style-type: none;
-  flex-direction: column;
-  background: pink;
+  flex-direction: row;
+  /* background: pink; */
+  background-image: url(/aboutpage/history.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   position: fixed;
   top: -100%;
   left: -100%;
@@ -47,7 +50,7 @@ body {
   padding: 10px;
   color: white;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .navbar-link {
   margin: 10px;
@@ -62,8 +65,8 @@ body {
   background: none;
   border: none;
   outline: none;
-  padding: 20px;
-  color: aqua;
+  padding: 40px;
+  color: black;
 }
 
 .card-container-heading {
@@ -87,10 +90,12 @@ body {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  margin: 1%;
-  padding: 40px;
+  margin: 15px;
+  padding: 30px;
   width: 30%;
   min-width: 300px;
+  color: white;
+  text-transform: uppercase;
 }
 
 /* .cards-2 {
@@ -128,6 +133,7 @@ body {
   display: flex;
   justify-content: center;
   color: white;
+  padding: 40px;
 }
 
 .button {
@@ -180,22 +186,11 @@ img {
   height: 60%;
 }
 
-#modal {
-  display: none;
-}
-
-#modal.modal-active {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  z-index: 100;
-  width: 50vw;
-  height: 50vh;
-  transform: translate(-50%, -50%);
+.p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
 }
 
 /* footer */

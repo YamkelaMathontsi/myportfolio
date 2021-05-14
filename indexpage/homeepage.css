@@ -208,14 +208,28 @@ p {
 .git {
   font-size: 3rem;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .ld {
   font-size: 3rem;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .insta {
   font-size: 3rem;
   margin-bottom: 20px;
+  padding: 20px;
+}
+
+.cp {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.ft {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .copyrights {

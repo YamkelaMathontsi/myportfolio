@@ -20,13 +20,13 @@ body {
 .navbar-links {
   display: flex;
   list-style-type: none;
-  flex-direction: column;
-  background: black;
+  flex-direction: row;
+  background: pink;
   position: fixed;
   top: -100%;
   left: -100%;
   width: 100vw;
-  height: 100vh;
+  height: 10vh;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;

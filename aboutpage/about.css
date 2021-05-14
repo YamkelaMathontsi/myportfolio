@@ -7,16 +7,16 @@
 .navbar-links {
   display: flex;
   list-style-type: none;
-  flex-direction: column;
-  /* background: pink; */
-  background-image: url(./history.jpg);
+  flex-direction: row;
+  background: pink;
+  /* background-image: url(./history.jpg); */
   background-size: cover;
   background-attachment: fixed;
   position: fixed;
   top: -100%;
   left: -100%;
   width: 100vw;
-  height: 100vh;
+  height: 10vh;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
@@ -118,6 +118,7 @@ body {
   text-transform: uppercase;
   color: white;
   margin: 20px;
+  font-size: 25px;
 }
 
 .text-q {
@@ -126,6 +127,7 @@ body {
   text-transform: uppercase;
   color: white;
   margin: 20px;
+  font-size: 30px;
 }
 
 /* heading ends here */
@@ -246,14 +248,31 @@ body {
 .git {
   font-size: 3rem;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .ld {
   font-size: 3rem;
   margin-bottom: 20px;
+  padding: 20px;
 }
 .insta {
   font-size: 3rem;
   margin-bottom: 20px;
+  padding: 20px;
+}
+
+.cp {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.ft {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.ft:hover {
 }
 
 .main-icons {
