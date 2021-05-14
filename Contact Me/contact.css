@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./coding.webp);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  background: pink;
+  position: fixed;
+  top: -100%;
+  left: -100%;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 20px;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+
+.navbar-links.active {
+  top: 0;
+  left: 0;
+}
+
+.navbar-anchor {
+  border: solid 3px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  color: black;
+}
+.navbar-link {
+  margin: 10px;
+}
+
+.navbar-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 20px;
+  color: aqua;
+}
+
+#contact-form {
+  background: rgba(255, 255, 255, 0.3);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  /* backdrop-filter: blur(5.5px); */
+  /* -webkit-backdrop-filter: blur(5.5px); */
+  border-radius: 10px;
+  border: 10px solid rgba(255, 255, 255, 0.18);
+  padding: 100px;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 15px solid rgba(255, 255, 255, 0.18);
+  margin-left: 50px;
+}
+
+.contact-heading {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+label {
+  display: none;
+}
+
+.button-groups {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: goldenrod;
+}
+
+.button {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 5px;
+  width: 120px;
+  text-decoration: none;
+}
+
+.contact-input {
+  padding: 20px;
+  margin: 10px;
+  width: 600px;
+}
+
+.icon {
+  font-size: 1rem;
+  display: flex;
+  /* justify-content: space-between; */
+  /* padding: 50px; */
+  color: white;
+  /* margin: 30px; */
+  padding: 20px;
+}
+
+.text {
+  color: white;
+  margin: 20px;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.text-1 {
+  margin-bottom: 30px;
+}
+
+.icon {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+}

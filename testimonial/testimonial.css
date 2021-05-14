@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background: url(/extraimages/history.webp);
+  /* background-color: goldenrod; */
+  background-size: cover;
+  /* background-position: center; */
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  background: black;
+  position: fixed;
+  top: -100%;
+  left: -100%;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 20px;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+
+.navbar-anchor {
+  border: solid 3px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-link {
+  margin: 10px;
+}
+
+.navbar-links.active {
+  top: 0;
+  left: 0;
+}
+
+.navbar-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 20px;
+  color: aqua;
+}
+
+.heading-1 {
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+}
+.para-1 {
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.quo {
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+  padding: 20px;
+}
+
+.owl-carousel {
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5%;
+}
+.persons {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px solid white;
+  padding: 5% 5%;
+  display: flex;
+  justify-content: center;
+}
+.owl-carousel .owl-item img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: -10%;
+}
+
+/* footer */
+.footer {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.copyrights {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
